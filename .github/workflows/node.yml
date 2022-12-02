@@ -6,9 +6,9 @@ on:
     branches: [master]
 jobs:
   build:
-  env:
-    CI: true
-  strategy:
+    env:
+      CI: true
+    strategy:
     matrix:
       node-version: [16.x, 18.x]
     runs-on: windows-latest
