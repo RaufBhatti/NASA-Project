@@ -1,5 +1,5 @@
 import axios from 'axios';
-const URL = 'http://localhost:8000/v1';
+const URL = 'v1';
 
 async function httpGetPlanets() {
   try {
