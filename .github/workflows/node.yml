@@ -9,8 +9,8 @@ jobs:
     env:
       CI: true
     strategy:
-    matrix:
-      node-version: [16.x, 18.x]
+      matrix:
+        node-version: [16.x, 18.x]
     runs-on: windows-latest
     steps:
       - uses: actions/checkout@v2
