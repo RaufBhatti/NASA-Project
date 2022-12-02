@@ -13,7 +13,7 @@ RUN npm run server-deps --only=production
 COPY client/ client/
 RUN npm run build --prefix client
 
-COPY /server /server
+COPY server/ server/
 
 USER node
 
